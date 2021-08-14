@@ -1,0 +1,28 @@
+.resumen{
+    font: var(--headline5);
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.resumen h2:first-child{
+    font: var(--body1);
+    font-size: 24px;
+    margin: 0;
+}
+
+.resumen p{
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .resumen{
+        padding-block-start: 200px;
+        padding-block-end: 200px;
+        padding-inline-start: 230px;
+        padding-inline-end: 230px;
+    }
+}
