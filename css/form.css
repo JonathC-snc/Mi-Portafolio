@@ -4,10 +4,10 @@
     gap: 16px;
     max-inline-size: 540px;
     margin: auto;
-    margin-block-end: 80px;
 }
 
 .form{
+    padding-block-start: 80px;
     margin-block-end: 80px;
 }
 
@@ -27,6 +27,7 @@
 .form label{
     display: flex;
     flex-direction: column;
+    color: var(--white);
 }
 
 .form input, .form textarea{

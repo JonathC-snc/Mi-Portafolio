@@ -7,6 +7,11 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    color: var(--white);
+}
+
+.project-description  .is-secondary{
+    color: var(--white);
 }
 
 .project-image img{
@@ -17,9 +22,11 @@
     .project{
         display: flex;
         align-items: center;
-        gap: 28px;
+        gap: 30px;
         padding-block-start: 80px;
         padding-block-end: 80px;
+        padding-inline-start: 80px;
+        padding-inline-end: 80px;
     }
 
     .project-description{

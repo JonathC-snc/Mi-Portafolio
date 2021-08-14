@@ -1,6 +1,6 @@
-const $form = document.querySelector('#form');
+const $form = document.querySelector('#contact');
 
-$form.addEventListener('submit', handleSubmit)
+    $form.addEventListener('submit', handleSubmit)
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -16,7 +16,7 @@ $form.addEventListener('submit', handleSubmit)
         })
         if (response.ok) {
             this.reset()
-            alert('Gracias por contactarme, te escribire en la brevedad posible')
+            alert('Gracias por contactarme, muy pronto me pondré en contacto contigo!')
         }else{
             this.reset()
             alert('No se enviaron los datos')
