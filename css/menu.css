@@ -22,4 +22,13 @@
     .menu{
         display: block;
     }
+
+    .menu li a {
+        display:  block;
+        padding: 20px;
+    }
+
+    .menu li a:hover {
+        background: var(--purple);
+    }
 }
